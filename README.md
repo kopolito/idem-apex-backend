@@ -1,4 +1,4 @@
 # idem-apex-backend
 
 Prototype de backend Apex
-V 1.0.0
+V 1.1.0
