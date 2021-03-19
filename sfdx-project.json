@@ -1,11 +1,17 @@
 {
-	"packageDirectories": [
-		{
-			"path": "force-app",
-			"default": true
-		}
-	],
-	"namespace": "",
-	"sfdcLoginUrl": "https://empathetic-raccoon-153v2x-dev-ed.my.salesforce.com",
-	"sourceApiVersion": "50.0"
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "ordersandaccounts",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://empathetic-raccoon-153v2x-dev-ed.my.salesforce.com",
+    "sourceApiVersion": "51.0",
+    "packageAliases": {
+        "ordersandaccounts": "0Ho09000000oLwLCAU"
+    }
 }
