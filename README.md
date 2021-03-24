@@ -1,7 +1,7 @@
 # idem-apex-backend
 
 Prototype de backend Apex
-V 1.1.3
+V 1.1.4
 
 ## package installation :
 
@@ -23,8 +23,8 @@ V 1.1.3
 
 ### installer le package dans l'org de test
 
-`sfdx force:package:install --wait 10 --publishwait 10 --package ordersandaccounts@1.0.0-1 -k test1234 -r -u scratch`
+`sfdx force:package:install --wait 10 --publishwait 10 --package ordersandaccounts@1.1.4-1 -k test1234 -r -u scratch`
 
 ### Publication de la version de package
 
-`sfdx force:package:version:promote -p ordersandaccounts@1.0.0-1 -v idem`
+`sfdx force:package:version:promote -p ordersandaccounts@1.1.4-1 -v idem`
