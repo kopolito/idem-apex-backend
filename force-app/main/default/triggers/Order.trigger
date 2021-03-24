@@ -9,7 +9,7 @@ trigger Order on Order(after insert, before update, after delete) {
 		// Process before update
 		List<Order> ordersToCheck = new List<Order>();
 		for (Order updatedOrder : Trigger.new) {
-			if (updatedOrder.Status == 'Activated' && Trigger.oldMap.get(updatedOrder.id).Status != 'Activated') {
+			if (updatedOrder.Status == 'Activated' && Trigger.oldMap.get(updatedOrder.id).Status == 'Draft') {
 				ordersToCheck.add(updatedOrder);
 			}
 		}

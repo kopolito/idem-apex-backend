@@ -1,11 +1,19 @@
 {
-	"packageDirectories": [
-		{
-			"path": "force-app",
-			"default": true
-		}
-	],
-	"namespace": "",
-	"sfdcLoginUrl": "https://empathetic-raccoon-153v2x-dev-ed.my.salesforce.com",
-	"sourceApiVersion": "50.0"
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "ordersandaccounts",
+            "versionName": "ver 1.1.4",
+            "versionNumber": "1.1.4.NEXT"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://idemconnect-dev-ed.my.salesforce.com",
+    "sourceApiVersion": "51.0",
+    "packageAliases": {
+        "ordersandaccounts": "0Ho09000000wk7OCAQ",
+        "ordersandaccounts@1.1.3-1": "04t09000000ZoXMAA0",
+        "ordersandaccounts@1.1.4-1": "04t09000000ZpeFAAS"
+    }
 }
